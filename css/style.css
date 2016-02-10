@@ -1619,15 +1619,44 @@ button:focus {
 }
 .home-download-btn {
   display: inline-block;
+  margin-left: -15px;
+}
+.home-download-btn .media-left {
+  vertical-align: top;
+  padding-right: 5px;
 }
 .home-download-btn .btn {
   margin-bottom: 20px;
+  height: 60px;
+  padding: 5px 20px 5px 10px;
+  background: white;
+  color: black;
+}
+.home-download-btn .btn .small-text {
+  padding-top: 3px;
+  font-size: 15px;
+}
+.home-download-btn .btn .big-text {
+  font-size: 25px;
+}
+.home-download-btn .btn:after, .home-download-btn .btn:hover:after, .home-download-btn .btn:active:after {
+  background: white;
+}
+.home-download-btn .btn .icon svg {
+  fill: #000 !important;
+  width: 50px;
 }
 .home-download-btn .icon svg {
   fill: #fff;
   width: 32px;
   height: auto;
   margin-left: 5px;
+}
+.home-download-btn img {
+  padding: 0 15px;
+  margin-bottom: 20px;
+  height: 60px;
+  vertical-align: top;
 }
 .stores-on span {
   opacity: 0.9;
